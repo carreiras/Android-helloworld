@@ -12,12 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Helloworld"
         tools:targetApi="31">
+
+        <!-- Declarando a Activity principal -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.Helloworld">
             <intent-filter>
+                <!-- Indica que esta Activity é a tela de entrada (launcher) -->
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
