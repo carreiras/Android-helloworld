@@ -7,11 +7,23 @@
     android:gravity="center"
     tools:context=".MainActivity">
 
+    <!-- Campo de texto para o usuário digitar o nome -->
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu nome"
+        android:imeOptions="actionDone"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:layout_margin="16dp" />
 
+    <!-- Texto que exibirá o Hello World, incrementado com o nome -->
     <TextView
-        android:id="@+id/textViewHello"
+        android:id="@+id/tvHelloMessage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:layout_marginTop="16dp" />
 </LinearLayout>
